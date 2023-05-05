@@ -1,0 +1,37 @@
+:root{
+    /* rosso */
+    --primary:#A5102E;
+    /* giallo */
+    --secondary:rgb(249, 199, 68);
+    /* marrone */
+    --tertiary:rgb(77, 44, 33);
+}
+
+
+/* font google */
+h1,h2,nav{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.redBg{
+    background-color: var(--primary);
+}
+
+.imgC{
+    width: 800px;
+    height: 500px;
+}
+
+.friesBg{
+    background-image: url(/storage/app/public/media/fries.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-bottom: 500px;
+}
+
