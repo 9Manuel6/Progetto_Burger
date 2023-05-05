@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
+use App\Http\Controllers\LavoratoriController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,6 @@ use App\Http\Controllers\PublicController;
 */
 
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
+Route::get('/lavoratori/chi-siamo', [LavoratoriController::class, 'burger'])->name('chi-siamo');
+Route::get('/lavoratori/contatti', [LavoratoriController::class, 'personale'])->name('contatti');
+Route::get('/lavoratori/panini', [LavoratoriController::class, 'cibo'])->name('panini');

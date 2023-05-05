@@ -8,7 +8,7 @@
             <button type="button" class="btn btn-warning"> Chiama ora </button>
         </a>
     </header>
-    <section class="container-fluid friesBg vh-100">
+    <section class="container-fluid friesBg vh-100 ">
         <div class="row h-50">
             <div class="col-12 d-flex flex-column justify-content-center align-items-center">
                 <h2 class="display-5 p-3"> I preferiti</h2>
@@ -27,10 +27,22 @@
                 </a>
             </div>
         </div>
-       
-
-
-    </section>
-
-
+    <div class="col-12">
+        <form class=" formCustom text-center" method="" action="" enctype="multipart/form-data">
+            <div class="mb-3">
+                    <label for="title" class="form-label">Nome</label>
+                    <input type="text" name="title" class="form-control" id="title">
+            </div>
+            <div class="mb-3">
+                    <label for="lista" class="form-label">Ingredienti</label>
+                    <textarea class="form-control" name="ingredienti" id="ingredienti" cols="30" rows="7"></textarea>
+            </div>
+            <div class="mb-3">
+                    <label for="imgCibo" class="form-label">Img Cibo</label>
+                    <input type="file" name="imgCibo" class="form-control" id="imgCibo" >
+            </div>  
+            <button type="submit" class="btn btn-primary">Gnaam</button>
+          </form>
+    </div>
+        </section>
 </x-layout>

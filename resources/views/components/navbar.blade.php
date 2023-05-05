@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg redBg navbar-dark d-flex flex-column">
+<nav class="navbar navbar-expand-lg redBg navbar-dark d-flex flex-column vh-min-100">
     <div class="container-fluid  d-flex justify-content-center align-items-center">
         {{-- lista navbar con logo  --}}
        <div class="row"> 
@@ -13,11 +13,9 @@
                         <a class="nav-link active" aria-current="page" href="{{route('homepage')}}">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PANINI</a>
+                        <a class="nav-link" href="{{route('panini')}}">PANINI</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">LOCATION</a>
-                    </li>
+                    
                     
                     <li>
                         <a class="navbar-brand" href="{{route('homepage')}}">
@@ -25,14 +23,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTATTI</a>
+                        <a class="nav-link" href="{{route('contatti')}}">CONTATTI</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CHI SIAMO</a>
+                        <a class="nav-link" href="{{route('chi-siamo')}}">CHI SIAMO</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
-                    </li>
+                   
                     
                     </ul>
                 </div>
