@@ -18,12 +18,12 @@
         <div class="row">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                 <a href=""> 
-                    <img src="{{Storage:: url('/media/panino2.png')}}" alt="">
+                    <img class="hoverC"src="{{Storage:: url('/media/panino2.png')}}" alt="">
                 </a>
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                 <a href=""> 
-                    <img src="{{Storage:: url('/media/alette.png')}}" alt="">
+                    <img class="hoverC" src="{{Storage:: url('/media/alette.png')}}" alt="">
                 </a>
             </div>
         </div>

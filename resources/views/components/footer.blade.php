@@ -6,21 +6,21 @@
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+      <a class="btn btn-floating m-1"  href="#!" role="button"><i class="fab fa-facebook-f fs-5"></i></a>
 
       <!-- Twitter -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+      <a class="btn btn-floating m-1"  href="#!" role="button"><i class="fab fa-twitter fs-5"></i></a>
 
       <!-- Google -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
+      <a class="btn  btn-floating m-1"  href="#!" role="button"><i class="fab fa-google fs-5"></i></a>
 
       <!-- Instagram -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram fs-5"></i></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <a class="btn  btn-floating m-1"  href="#!" role="button"><i class="fab fa-linkedin-in fs-5"></i></a>
       <!-- Github -->
-      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+      <a class="btn  btn-floating m-1"  href="#!" role="button"><i class="fab fa-github fs-5"></i></a>
     </section>
     <!-- Section: Social media -->
 

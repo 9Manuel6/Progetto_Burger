@@ -19,11 +19,16 @@ h3,h4,h5,h6{
 
 .redBg{
     background-color: var(--primary);
+
 }
 
 .imgC{
     width: 800px;
     height: 500px;
+}
+
+.imgC:hover{
+    transform: scale(1.2);
 }
 
 .friesBg{
@@ -36,15 +41,22 @@ h3,h4,h5,h6{
 }
 
 
+.hoverC:hover{
+    transform: scale(1.2);
+}
+
+
+
+
 
 .imgFooter{
     width: 100%;
     height:600px ;
-    background-image:url(/public/media/imgFooter.jpg);
+    background-image:url(/public/media/imgFooter.jpg) ;
     background-size: cover;
     background-position: bottom;
     color: #A5102E;
-    text-decoration: none;
+    
 
 }
 
