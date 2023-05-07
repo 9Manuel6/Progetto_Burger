@@ -104,3 +104,17 @@ color: white;
     background-color: var(--secondary);
 
 }
+
+
+
+.paniniBg{
+
+    background-color: darkgoldenrod;
+
+}
+
+.cardHeight{
+
+    height: 200px;
+
+}
