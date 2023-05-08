@@ -24,8 +24,18 @@ h3,h4,h5,h6{
 
 
 .imgC{
+
     width: 800px;
     height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.aCustom{
+
+    display: flex;
+    justify-content: center;
+
 }
 
 .imgC:hover{
@@ -39,6 +49,7 @@ h3,h4,h5,h6{
     width: 100%;
     height: 600px;
     padding-bottom: 600px;
+    
 }
 
 
@@ -80,8 +91,8 @@ color: white;
  background-size: contain;
  background-repeat: no-repeat;
  background-position: center;
- width: 400px;
- height: 400px;
+ width: 300px;
+ height: 300px;
  border-radius: 50%;
     
 }
@@ -138,4 +149,22 @@ color: white;
     }
 
     
+}
+
+
+@media screen and (max-width:1200px){
+
+    .panino{
+        width: 500px ;
+        height: 400px;
+
+
+
+    }
+
+    .pollo{
+        width: 500px ;
+        height: 400px;
+
+    }
 }
