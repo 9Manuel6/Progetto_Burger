@@ -2,11 +2,11 @@
 
 namespace App\Models;
 
-use App\Models\Hamburger;
+use App\Models\Burger;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Hamburger extends Model
+class Burger extends Model
 {
     use HasFactory;
 

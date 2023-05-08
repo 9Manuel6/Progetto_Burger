@@ -24,9 +24,9 @@
                     </li>
                   
                     
-                    {{-- <li class="nav-item ">
-                        <a class="nav-link" href="{{route('')}}">PANINI</a>
-                    </li> --}}
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{{route('burger.index')}}">PANINI</a>
+                    </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="{{route('chi-siamo')}}">CHI SIAMO</a>
                     </li>

@@ -19,7 +19,6 @@ use App\Http\Controllers\LavoratoriController;
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
 Route::get('/lavoratori/chi-siamo', [LavoratoriController::class, 'burger'])->name('chi-siamo');
 
-Route::get('/lavoratori/panini', [LavoratoriController::class, 'cibo'])->name('panini');
 
 
 Route::post('/welcome', [LavoratoriController::class, 'vostriPanini'])->name('vostri.panini');

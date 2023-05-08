@@ -1,4 +1,4 @@
-<x-layout header="Tutti i libri inseriti">
+<x-layout header="Tutti i panini inseriti">
    
     <div class="container">
         <div class="row justify-content-center">
