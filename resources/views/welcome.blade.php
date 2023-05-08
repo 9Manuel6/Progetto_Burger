@@ -6,7 +6,7 @@
        <div class="container">
         <div class="row">
             <div class="col-12 ">
-                <img class="imgC" src="{{ url('/media/panino.png')}}" alt="panino">
+                <img class="imgC img-fluid" src="{{ url('/media/panino.png')}}" alt="panino">
                 <a href=""> 
                     <button type="button" class="btn btn-warning"> Chiama ora </button>
                 </a>
@@ -25,12 +25,12 @@
         <div class="row">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                 <a href=""> 
-                    <img class="hoverC"src="{{ url('/media/panino2.png')}}" alt="">
+                    <img class="hoverC img-fluid"src="{{ url('/media/panino2.png')}}" alt="">
                 </a>
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                 <a href=""> 
-                    <img class="hoverC" src="{{url('/media/alette.png')}}" alt="">
+                    <img class="hoverC img-fluid" src="{{url('/media/alette.png')}}" alt="">
                 </a>
             </div>
         </div>

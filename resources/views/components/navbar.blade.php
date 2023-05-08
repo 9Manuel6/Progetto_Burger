@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg redBg navbar-dark d-flex flex-column vh-min-100">
+<nav class="navbar navbar-expand-lg redBg navbar-dark d-flex flex-column ">
     <div class="container-fluid  d-flex justify-content-center align-items-center">
         {{-- lista navbar con logo  --}}
        <div class="row"> 
