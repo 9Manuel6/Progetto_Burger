@@ -15,9 +15,5 @@ class LavoratoriController extends Controller
         return view('contatti');
     } 
 
-    public function cibo(){
-        return view('panini');
-    }
-       
 
 }

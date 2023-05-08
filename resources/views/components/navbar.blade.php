@@ -14,7 +14,7 @@
                     </li>
                    
                     <li class="nav-item ">
-                        <a class="nav-link" href="{{route('contatti')}}">I vostri panini</a>
+                        <a class="nav-link" href="{{route('burger.create')}}">I vostri panini</a>
                     </li>
                     
                     <li>
@@ -24,9 +24,9 @@
                     </li>
                   
                     
-                    <li class="nav-item ">
-                        <a class="nav-link" href="{{route('panini')}}">PANINI</a>
-                    </li>
+                    {{-- <li class="nav-item ">
+                        <a class="nav-link" href="{{route('')}}">PANINI</a>
+                    </li> --}}
                     <li class="nav-item ">
                         <a class="nav-link" href="{{route('chi-siamo')}}">CHI SIAMO</a>
                     </li>

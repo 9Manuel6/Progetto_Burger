@@ -35,18 +35,28 @@
             </div>
         </div>
     </section>
-            <div class="container-fluid formCustom ">
+            {{-- <div class="container-fluid formCustom ">
                 <div class="row">
                     <div class="col-12"> 
                             <h2 class="text-center my-5">I vostri Panini</h2>
-                        <form class="  text-center" method="" action="" enctype="multipart/form-data">
+                        <form class="text-center" method="POST" action="{{route('contatti')}}" enctype="multipart/form-data">
                             @csrf
+                            @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            @endif
+                           
                             <div class="mb-3">
                                     <label for="title" class="form-label">Nome</label>
                                     <input type="text" name="title" class="form-control" id="title">
                             </div>
                             <div class="mb-3">
-                                    <label for="lista" class="form-label">Ingredienti</label>
+                                    <label for="ingredienti" class="form-label">Ingredienti</label>
                                     <textarea class="form-control" name="ingredienti" id="ingredienti" cols="30" rows="7"></textarea>
                             </div>
                             <div class="mb-3">
@@ -55,7 +65,7 @@
                             </div>  
                             <button type="submit" class="btn btnCustom">Gnaam</button>
                         </form>
-                    </div>
+                    </div> 
                 </div>
-            </div>
+            </div>--}}
 </x-layout>

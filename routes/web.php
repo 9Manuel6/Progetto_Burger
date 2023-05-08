@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BurgerController;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\LavoratoriController;
 
@@ -17,5 +18,14 @@ use App\Http\Controllers\LavoratoriController;
 
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
 Route::get('/lavoratori/chi-siamo', [LavoratoriController::class, 'burger'])->name('chi-siamo');
-Route::get('/lavoratori/contatti', [LavoratoriController::class, 'personale'])->name('contatti');
+
 Route::get('/lavoratori/panini', [LavoratoriController::class, 'cibo'])->name('panini');
+
+
+Route::post('/welcome', [LavoratoriController::class, 'vostriPanini'])->name('vostri.panini');
+
+
+
+Route::get('/burger/create', [BurgerController::class, 'create'])->name('burger.create');
+Route::post('/burger/store', [BurgerController::class, 'store'])->name('burger.store');
+Route::get('/burger/index', [BurgerController::class, 'index'])->name('burger.index');
