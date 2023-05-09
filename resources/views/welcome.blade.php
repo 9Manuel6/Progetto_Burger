@@ -19,7 +19,7 @@
                 <h4>Cosa aspetti?? Facci sapere il tuo preferito..!</h4>
             </div>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             <div class="panino col-6 col-md-6 col-sm-6 d-flex flex-column justify-content-center align-items-center">
                 <a href=""> 
                     <img class="hoverC img-fluid"src="{{ url('/media/panino2.png')}}" alt="">
