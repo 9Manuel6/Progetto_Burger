@@ -19,7 +19,8 @@ class BurgerController extends Controller
 
             'title'=> $request->title,
             'ingredienti'=> $request->ingredienti,
-            // 'imgCibo'=> $request->file('imgCibo')->store('public/media'),
+            'imgCibo'=> $request->file('imgCibo') ? $request->file('imgCibo')->store('public/media'): '/media/noimg.png',
+            
            
         ]);
 

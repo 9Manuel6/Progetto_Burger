@@ -14,6 +14,6 @@ class Burger extends Model
 
         'title',
         'ingredienti',
-        // 'imgCibo',
+        'imgCibo',
     ];
 }

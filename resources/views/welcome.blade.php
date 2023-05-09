@@ -1,6 +1,15 @@
 <x-layout>
+    
+   
+
+
 
     <header class="redBg d-flex justify-content-center flex-column align-items-center vh-100">
+        @if (session('create'))
+            <div class="alert alert-success">
+                {{ session('create') }}
+            </div>
+        @endif
         <h1 class="display-1 text-white"><strong>Burger House</strong></h1>
         <h6 class="display-6"> Gnaam Gnammm </h6>
        <div class="container">

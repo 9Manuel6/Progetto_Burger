@@ -35,7 +35,7 @@
                 </div>
             </div>    
         </div>  
-     {{-- bottoni navbar --}}
+    
        
     </div>
 

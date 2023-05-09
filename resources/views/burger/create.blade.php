@@ -31,10 +31,10 @@
                             {{old('ingredienti')}}
                         </textarea>
                     </div>
-                    {{-- <div class="mb-3">
+                    <div class="mb-3">
                         <label for="imgCibo" class="form-label">Immagine</label>
                         <input type="file" name="imgCibo" id="imgCibo" class="form-control">
-                    </div> --}}
+                    </div>
 
                     <button type="submit" class="btn btn-light">Inserisci</button>
                 </form>

@@ -25,7 +25,7 @@ class BurgerRequest extends FormRequest
          
             'title'=>'required|min:3|max:10',
             'ingredienti'=>'required|min:3|max:255',
-            // 'cover'=>'file|required|image',
+            'imgCibo'=>'file|required|image',
            
         ];
    
@@ -35,14 +35,14 @@ class BurgerRequest extends FormRequest
 
     public function messages(): array{
         return[
-            'title.required'=>'Devi inserire il titolo del libro',
-            'title.min'=>'il titolo deve essere di almeno tre caratteri',
-            'title.max'=>'il titolo deve essere di massimo 10 caratteri',
+            'title.required'=>'Devi inserire il nome del panino',
+            'title.min'=>'il nome deve essere di almeno tre caratteri',
+            'title.max'=>'il nome deve essere di massimo 10 caratteri',
            
-            // 'cover.required'=>'Devi inserire un\'immagine',
-            'ingredienti.required'=>'Devi inserire la descrizione del libro',
-            'ingredienti.min'=>'la descrizione deve essere di almeno tre caratteri',
-            'ingredienti.max'=>'la descrizione deve essere di massimo 30 caratteri',
+            'imgCibo.required'=>'Devi inserire un\'immagine',
+            'ingredienti.required'=>'Devi inserire gli ingredienti del panino',
+            'ingredienti.min'=>'gli ingredienti devono essere di almeno tre caratteri',
+            'ingredienti.max'=>'gli ingredienti devono essere di massimo 30 caratteri',
 
         ];
     }  
