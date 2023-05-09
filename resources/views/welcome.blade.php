@@ -3,7 +3,6 @@
    
 
 
-
     <header class="redBg d-flex justify-content-center flex-column align-items-center vh-100">
         @if (session('create'))
             <div class="alert alert-success">
